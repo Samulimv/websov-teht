@@ -14,13 +14,20 @@
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="images.html">Images</a></li>
-            <li><a href="survey.html">survey</a></li>
+            <li><a href="survey.html">Survey</a></li>
         </ul>
     </nav>
     <section id="contact">
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, you can reach me at: <a href="mailto:t3vasa03@students.oamk.fi">t3vasa03@students.oamk.fi</a>.</p>
     </section>
-
+    
+    <button onclick="toggleTheme()">Toggle Theme</button>
+    
+    <script>
+    function toggleTheme() {
+        document.body.classList.toggle('dark-theme');
+    }
+    </script>
 </body>
 </html>
